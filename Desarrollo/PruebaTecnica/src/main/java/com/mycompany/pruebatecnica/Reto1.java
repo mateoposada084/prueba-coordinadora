@@ -9,7 +9,7 @@ public class Reto1 {
     static int[] vector1;
     static int[] vector2;
     
-    public static int[] iniciarVector(String nombreVector) {
+    private static int[] iniciarVector(String nombreVector) {
         System.out.println("Ingresar tamaño del vector " + nombreVector);
         int tamano = scanner.nextInt();
         while (tamano > tamanoMaximoDatos) {
